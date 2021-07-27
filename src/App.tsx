@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <input ref={ref} onChange={handleChange} type="file" name="file" />
-      <pre>{result}</pre>
+      <pre className="result">{result}</pre>
     </div>
   );
 }
